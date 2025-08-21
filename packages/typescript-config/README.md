@@ -1,6 +1,6 @@
 # TypeScript Configuration Package
 
-Shared TypeScript configuration for the Learning Management System monorepo.
+Shared TypeScript configuration for the Next.js full-stack monorepo template.
 
 ## 🚀 Features
 
