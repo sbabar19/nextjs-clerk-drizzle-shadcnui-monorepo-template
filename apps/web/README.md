@@ -1,6 +1,6 @@
 # Web Application
 
-The main Next.js web application for the Learning Management System.
+The main Next.js web application for the full-stack template.
 
 ## 🚀 Features
 
@@ -64,7 +64,7 @@ Create `.env.local` in the `apps/web/` directory:
 # Database Configuration
 DB_USER=your_db_user
 DB_HOST=localhost
-DB_DATABASE=lms_db
+DB_DATABASE=your_app_db
 DB_PASSWORD=your_db_password
 DB_PORT=5432
 

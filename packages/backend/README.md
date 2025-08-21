@@ -1,6 +1,6 @@
 # Backend Package
 
-Database schema, utilities, and backend logic for the Learning Management System.
+Database schema, utilities, and backend logic for the full-stack template.
 
 ## 🚀 Features
 
@@ -57,7 +57,7 @@ Ensure your database environment variables are available:
 ```env
 DB_USER=your_db_user
 DB_HOST=localhost
-DB_DATABASE=lms_db
+DB_DATABASE=your_app_db
 DB_PASSWORD=your_db_password
 DB_PORT=5432
 ```
@@ -91,10 +91,8 @@ pnpm test               # Run tests (placeholder)
 The database schema includes tables for:
 
 - **Users**: User accounts and profiles
-- **Courses**: Course information and metadata
-- **Enrollments**: Student course enrollments
-- **Lessons**: Individual lesson content
-- **Progress**: Student progress tracking
+- **Example Tables**: Sample tables for your application
+- **Additional Tables**: Custom tables for your specific needs
 
 ### Schema Management
 
@@ -176,7 +174,7 @@ const newUser = await createUser({
 ### Schema Access
 
 ```typescript
-import { users, courses } from '@workspace/backend/db/schema'
+import { users } from '@workspace/backend/db/schema'
 
 // Use schema definitions
 const userQuery = db.select().from(users)

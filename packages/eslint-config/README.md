@@ -1,6 +1,6 @@
 # ESLint Configuration Package
 
-Shared ESLint configuration for the Learning Management System monorepo.
+Shared ESLint configuration for the Next.js full-stack monorepo template.
 
 ## 🚀 Features
 

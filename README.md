@@ -1,6 +1,6 @@
-# Learning Management System
+# Next.js Full-Stack Monorepo Template
 
-A modern, full-stack learning management system built with Next.js, TypeScript, and a monorepo architecture.
+A modern, full-stack application template built with Next.js, TypeScript, and a monorepo architecture.
 
 ## 🚀 Features
 
@@ -16,7 +16,7 @@ A modern, full-stack learning management system built with Next.js, TypeScript, 
 ## 📁 Project Structure
 
 ```
-learning-management-system/
+nextjs-fullstack-monorepo/
 ├── apps/
 │   └── web/                 # Next.js web application
 ├── packages/
@@ -48,7 +48,7 @@ learning-management-system/
 
 ```bash
 git clone <repository-url>
-cd learning-management-system
+cd nextjs-fullstack-monorepo
 ```
 
 ### 2. Install dependencies
@@ -65,7 +65,7 @@ Create `.env.local` in the `apps/web/` directory:
 # Database Configuration
 DB_USER=your_db_user
 DB_HOST=localhost
-DB_DATABASE=lms_db
+DB_DATABASE=your_app_db
 DB_PASSWORD=your_db_password
 DB_PORT=5432
 
@@ -207,3 +207,13 @@ This project is licensed under the ISC License.
 ## 🆘 Support
 
 For support and questions, please open an issue in the repository.
+
+## 🚀 Getting Started with Your Project
+
+After cloning this template:
+
+1. Update the project name in `package.json`
+2. Customize the database schema in `packages/backend/src/db/schema/`
+3. Modify the authentication flow in `apps/web/app/[lang]/(auth)/`
+4. Update the internationalization files in `apps/web/locale/`
+5. Customize the UI components in `packages/ui/src/components/`
