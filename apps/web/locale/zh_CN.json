@@ -1,0 +1,88 @@
+{
+  "name": "简体中文",
+  "locale": {
+    "title": "地区语言",
+    "options": {
+      "en": "英文",
+      "zh_TW": "繁体中文",
+      "zh_CN": "简体中文",
+      "ur": "اردو"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "title": "忘记密码",
+      "description": "忘记密码描述",
+      "form": {
+        "email": {
+          "label": "电子邮件",
+          "placeholder": "请输入您的电子邮件"
+        },
+        "password": {
+          "label": "密码",
+          "placeholder": "请输入您的密码"
+        },
+        "otp": "验证码",
+        "resetPassword": "重设密码",
+        "sendCode": "发送验证码"
+      }
+    },
+    "signIn": {
+      "title": "欢迎回来",
+      "description": "登录描述",
+      "form": {
+        "email": {
+          "label": "电子邮件",
+          "placeholder": "请输入您的电子邮件"
+        },
+        "password": {
+          "label": "密码",
+          "placeholder": "请输入您的密码"
+        },
+        "rememberMe": "记住我",
+        "forgotPassword": "忘记密码？",
+        "signIn": "登录",
+        "or": "或",
+        "noAccount": "没有账号？",
+        "signUp": "立即注册",
+        "error": {
+          "unknown": "登录过程中发生错误，请再试一次。"
+        }
+      }
+    },
+    "signUp": {
+      "title": "注册",
+      "description": "注册描述",
+      "form": {
+        "email": {
+          "label": "电子邮件",
+          "placeholder": "请输入您的电子邮件"
+        },
+        "password": {
+          "label": "密码",
+          "placeholder": "请输入您的密码"
+        },
+        "terms": "我同意",
+        "termsLink": "使用条款",
+        "signUp": "注册",
+        "or": "或",
+        "alreadyMember": "已经有账号？",
+        "loginHere": "登录",
+        "verifyEmail": "验证电子邮件",
+        "verify": "验证",
+        "verifyOTP": "请输入发送到您电子邮件的单次密码。",
+        "error": {
+          "unknown": "注册过程中发生错误，请再试一次。"
+        }
+      }
+    }
+  },
+  "common": {
+    "toggleTheme": {
+      "title": "切换主题",
+      "light": "亮色",
+      "dark": "暗色",
+      "system": "系统"
+    }
+  }
+}
