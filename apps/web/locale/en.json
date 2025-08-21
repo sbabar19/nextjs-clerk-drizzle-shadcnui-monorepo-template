@@ -1,0 +1,88 @@
+{
+  "name": "English",
+  "locale": {
+    "title": "Locale",
+    "options": {
+      "en": "English",
+      "zh_TW": "Traditional Chinese",
+      "zh_CN": "Simplified Chinese",
+      "ur": "اردو"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Description for forgot password",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email address"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        },
+        "otp": "OTP",
+        "resetPassword": "Reset Password",
+        "sendCode": "Send Code"
+      }
+    },
+    "signIn": {
+      "title": "Welcome back",
+      "description": "Description for sign in",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email address"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        },
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "signIn": "Sign in",
+        "or": "Or",
+        "noAccount": "Don't have an account?",
+        "signUp": "Sign up now",
+        "error": {
+          "unknown": "An error occurred while signing you in, please try again."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Sign up",
+      "description": "Description for sign up",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email address"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        },
+        "terms": "I agree to the",
+        "termsLink": "Terms of Use",
+        "signUp": "Sign up",
+        "or": "Or",
+        "alreadyMember": "Already a member?",
+        "loginHere": "Log in here",
+        "verifyEmail": "Verify your email",
+        "verify": "Verify",
+        "verifyOTP": "Please enter the one time password sent to your email.",
+        "error": {
+          "unknown": "An error occurred while signing you up, please try again."
+        }
+      }
+    }
+  },
+  "common": {
+    "toggleTheme": {
+      "title": "Toggle Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  }
+}

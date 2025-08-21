@@ -1,0 +1,88 @@
+{
+  "name": "اردو",
+  "locale": {
+    "title": "زبان",
+    "options": {
+      "en": "English",
+      "zh_TW": "Traditional Chinese",
+      "zh_CN": "Simplified Chinese",
+      "ur": "اردو"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "title": "پاس ورڈ بھول گئے",
+      "description": "پاس ورڈ بھول جانے کی تفصیل",
+      "form": {
+        "email": {
+          "label": "ای میل",
+          "placeholder": "اپنا ای میل ایڈریس درج کریں"
+        },
+        "password": {
+          "label": "پاس ورڈ",
+          "placeholder": "اپنا پاس ورڈ درج کریں"
+        },
+        "otp": "OTP",
+        "resetPassword": "پاس ورڈ ری سیٹ کریں",
+        "sendCode": "کوڈ بھیجیں"
+      }
+    },
+    "signIn": {
+      "title": "خوش آمدید",
+      "description": "سائن ان کی تفصیل",
+      "form": {
+        "email": {
+          "label": "ای میل",
+          "placeholder": "اپنا ای میل ایڈریس درج کریں"
+        },
+        "password": {
+          "label": "پاس ورڈ",
+          "placeholder": "اپنا پاس ورڈ درج کریں"
+        },
+        "rememberMe": "مجھے یاد رکھیں",
+        "forgotPassword": "پاس ورڈ بھول گئے؟",
+        "signIn": "سائن ان کریں",
+        "or": "یا",
+        "noAccount": "اکاؤنٹ نہیں ہے؟",
+        "signUp": "ابھی سائن اپ کریں",
+        "error": {
+          "unknown": "آپ کو سائن ان کرنے میں ایک خرابی آئی، براہ کرم دوبارہ کوشش کریں۔"
+        }
+      }
+    },
+    "signUp": {
+      "title": "سائن اپ کریں",
+      "description": "سائن اپ کی تفصیل",
+      "form": {
+        "email": {
+          "label": "ای میل",
+          "placeholder": "اپنا ای میل ایڈریس درج کریں"
+        },
+        "password": {
+          "label": "پاس ورڈ",
+          "placeholder": "اپنا پاس ورڈ درج کریں"
+        },
+        "terms": "میں رضامند ہوں",
+        "termsLink": "استعمال کی شرائط",
+        "signUp": "سائن اپ کریں",
+        "or": "یا",
+        "alreadyMember": "پہلے سے ممبر ہیں؟",
+        "loginHere": "یہاں لاگ ان کریں",
+        "verifyEmail": "اپنا ای میل تصدیق کریں",
+        "verify": "تصدیق کریں",
+        "verifyOTP": "براہ کرم اپنے ای میل پر بھیجا گیا ون ٹائم پاس ورڈ درج کریں۔",
+        "error": {
+          "unknown": "آپ کو سائن اپ کرنے میں ایک خرابی آئی، براہ کرم دوبارہ کوشش کریں۔"
+        }
+      }
+    }
+  },
+  "common": {
+    "toggleTheme": {
+      "title": "تھیم تبدیل کریں",
+      "light": "روشنی",
+      "dark": "اندھیرا",
+      "system": "سسٹم"
+    }
+  }
+}
